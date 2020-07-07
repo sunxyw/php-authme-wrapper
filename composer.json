@@ -1,5 +1,5 @@
 {
-    "name": "sunxyw/authme-php-wrapper",
+    "name": "sunxyw/authme-wrapper",
     "description": "A package for verify password using Authme encryption",
     "type": "library",
     "license": "MIT",
