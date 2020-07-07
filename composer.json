@@ -1,0 +1,18 @@
+{
+    "name": "sunxyw/authme-php-wrapper",
+    "description": "A package for verify password using Authme encryption",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunxyw",
+            "email": "xy2496419818@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sunxyw\\AuthmeWrapper\\": "src/"
+        }
+    }
+}
