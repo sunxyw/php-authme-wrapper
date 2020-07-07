@@ -27,6 +27,11 @@ class Wrapper
     {
     }
 
+    /**
+     * Get authme wrapper instance
+     *
+     * @return Wrapper
+     */
     public static function getInstance()
     {
         if (is_null(self::$instance)) {

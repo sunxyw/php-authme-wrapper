@@ -11,7 +11,7 @@ abstract class AbstractEncryption
      * @param string $hash Hash stored in database
      * @return boolean
      */
-    public abstract function isValidPassword($password, $hash);
+    abstract public function isValidPassword($password, $hash);
 
     /**
      * Hashes the given password
@@ -19,5 +19,5 @@ abstract class AbstractEncryption
      * @param string $password Password to hash
      * @return string password's hash
      */
-    public abstract function hash($password);
+    abstract public function hash($password);
 }
